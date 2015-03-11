@@ -1,0 +1,10 @@
+.gridCell{
+	background-color:white;
+	display: inline;
+	border: solid 1px black;
+	float: left;
+}
+#container{
+	background-color: blue;
+	width: 960px;
+}
