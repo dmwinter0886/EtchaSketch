@@ -1,10 +1,27 @@
+#wrapper{
+	position: relative;
+	margin: 0;
+	padding:0;
+	
+}
+#navBar{
+	position:relative;
+	margin:auto;
+	text-align:center;
+	bottom: 5px;
+}
 .gridCell{
 	background-color:white;
-	display: inline;
-	border: solid 1px black;
-	float: left;
+	display: inline-block;
+	border: none;
+	outline: 1px solid black;
 }
 #container{
-	background-color: blue;
 	width: 960px;
+	outline: 2px solid black;
+	margin:auto;
+}
+#newGridButton{
+	height: 50px;
+	width: 100px;
 }
